@@ -10,7 +10,12 @@ export const photos = [
       height: 3
     },
     {
-      src: "https://live.staticflickr.com/7309/13981192070_bd9668d2ee_c.jpg",
+      src: "https://live.staticflickr.com/3919/14827372928_06e9f23d23_c.jpg",
+      width:4,
+      height: 3
+    },
+    {
+      src: "https://live.staticflickr.com/65535/48177461172_5df054945b_o.jpg",
       width:5,
       height: 3
     },
@@ -22,6 +27,11 @@ export const photos = [
     {
       src: "https://live.staticflickr.com/3931/15264144519_9663d039f6_c.jpg",
       width: 4,
+      height: 3
+    },
+    {
+      src: "https://live.staticflickr.com/65535/48177384276_f913b7f9f7_o.jpg",
+      width:5,
       height: 3
     },
     {
