@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Gallery from "react-photo-gallery";
+import { photos } from "./photos";
+import { render } from "react-dom";
+
+/* popout the browser and maximize to see more rows! -> */
+const BasicRows = () => <Gallery photos={photos} />;
+render(<BasicRows />, document.getElementById("app"));
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
